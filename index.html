@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="index.js"></script>
+</head>
+<body>
+   <div class="container flex">
+    <section class="main flex">
+        <div class="left-section">
+            <h2>To-Do-List</h2>
+            <form>
+                <input type="text" class="name" id="newTaskinput" name="name" required>
+            </form>
+            <button onclick="addTask()">submit</button>
+        </div>
+        <div class="white-line"></div>
+        <div class="right-section">
+            <h2>Your To-Do</h2>
+            <ol id="Task-list"></ol>
+        </div>
+    </section>
+   </div>
+</body>
+</html>
