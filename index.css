@@ -36,7 +36,7 @@ body{
 
 }
 
-h2{
+h2, label{
     color: var(--clr-light);
 }
 
@@ -51,7 +51,7 @@ h2{
 
 .main {
     justify-content: space-between;
-    height: 40%;
+    height: 50%;
     max-height: 60%;
     width: 80%; 
     max-width: 80%; /* Set a maximum width for the main section if desired */
@@ -103,6 +103,7 @@ h2{
 ol li{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 ol li button{
@@ -140,6 +141,11 @@ button {
     margin-bottom: 3rem;
 }
 
+#datetimePicker{
+    max-width: 10rem;
+    /* margin-bottom: 3rem; */
+}
+
 ol > *{
 
     color: white;
@@ -149,12 +155,13 @@ ol > *{
 
 
 
-@media (min-width: 700px){
+@media (min-width: 800px){
     
     
     .main {
         
         display: flex;
+
         
     }
     .left-section{
