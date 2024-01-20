@@ -53,10 +53,27 @@ h2{
     justify-content: space-between;
     height: 40%;
     max-height: 60%;
-    width: 80%; /* You can adjust the width as needed */
+    width: 80%; 
     max-width: 80%; /* Set a maximum width for the main section if desired */
     margin-bottom: 6rem;
 }
+
+
+
+/* .current_time_small:hover + .current_time_big{
+    transform: scale(1);
+    transition: ease-in;
+    transition-duration: 0.3s;
+} */
+
+#times{
+    display: flex;
+    height: 30px;
+    width: 50%;
+}
+
+
+
 .left-section{
     flex: 1;
     margin: 1rem 1rem;
@@ -95,6 +112,7 @@ ol li button{
     border-bottom: .2rem solid white;
     color: wheat;
     margin-left: .1rem;
+    
 }
 
 form {
@@ -131,7 +149,7 @@ ol > *{
 
 
 
-@media (min-width: 600px){
+@media (min-width: 700px){
     
     
     .main {
